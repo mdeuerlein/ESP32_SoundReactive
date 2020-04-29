@@ -25,7 +25,7 @@ double vImag[SAMPLES];
 unsigned long newTime, oldTime;
 
 // LED Settings
-#define LED_COUNT 120
+#define LED_COUNT 144
 #define LED_PIN   12
 
 WS2812FX ws2812fx = WS2812FX(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
